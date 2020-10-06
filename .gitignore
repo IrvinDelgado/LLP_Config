@@ -1,0 +1,16 @@
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Downloaded manuals will be placed in data directory
+data/
+
+# tests placed here will be ignored
+test/
+
+#Vs Code Files
+.vscode/
+
+# Files prepped for SP
+spFiles/
