@@ -246,29 +246,29 @@ PARTS_DATA.drop_duplicates(inplace=True)
 u,p = get_auth('edtdpap1Fun1')
 eng = get_engine(u, p, 'EDTDPAP1.aa.com', u)
 
-eng.execute('DELETE FROM PROD_TECHOPS_SNBX_DB.BT_LLP_TABLE_INFO')
+eng.execute('DELETE FROM *')
 TABLE_INFO.to_sql(
     name='BT_LLP_TABLE_INFO',
     con=eng,
     index=False,
     if_exists='append',
-    schema='PROD_TECHOPS_SNBX_DB')
+    schema='*')
 
-eng.execute('DELETE FROM PROD_TECHOPS_SNBX_DB.BT_LLP_ENGINE_DATA')
+eng.execute('DELETE FROM *')
 ENGINE_DATA.to_sql(
     name='BT_LLP_ENGINE_DATA',
     con=eng,
     index=False,
     if_exists='append',
-    schema='PROD_TECHOPS_SNBX_DB')
+    schema='*')
 
-eng.execute('DELETE FROM PROD_TECHOPS_SNBX_DB.BT_LLP_PARTS')
+eng.execute('DELETE FROM *')
 PARTS_DATA.to_sql(
     name='BT_LLP_PARTS',
     con=eng,
     index=False,
     if_exists='append',
-    schema='PROD_TECHOPS_SNBX_DB')
+    schema='*')
 
 eng.dispose()
 
