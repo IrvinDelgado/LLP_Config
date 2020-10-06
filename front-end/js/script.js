@@ -15,7 +15,7 @@ var engineData = (function () {
 
 var llp_parts = new Object()
 var llp_part_promise = $().SPServices.SPGetListItemsJson({
-  webURL: "https://spteam.aa.com/sites/TEQ/BMP/LLPCONFIG",
+  webURL: "",
   listName: "LLP_Parts",
 });
 $.when(llp_part_promise).done(function() {
@@ -90,7 +90,7 @@ function moduleFill() {
   var view = "<ViewFields><FieldRef Name='ENGINEMODULE'></FieldRef></ViewFields>"
 
   var traineePromise = $().SPServices.SPGetListItemsJson({
-    webURL: "https://spteam.aa.com/sites/TEQ/Reliability/NRTFLIGHTOPS",
+    webURL: "",
     listName: "LLP_TABLE_INFO",
     CAMLQuery: query,
     CAMLViewFields: view,
@@ -152,12 +152,12 @@ function modalFill() {
                "</Query>"
 
   var table_info_promise = $().SPServices.SPGetListItemsJson({
-    webURL: "https://spteam.aa.com/sites/TEQ/Reliability/NRTFLIGHTOPS",
+    webURL: "",
     listName: "LLP_TABLE_INFO",
     CAMLQuery: query,
   });
   var engine_data_promise = $().SPServices.SPGetListItemsJson({
-    webURL: "https://spteam.aa.com/sites/TEQ/BMP/LLPCONFIG",
+    webURL: "",
     listName: "LLP_ENGINE_DATA",
     CAMLQuery: query,
   });
