@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>LLPConfig</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./front-end/libraries/bootstrap.min.css">
+  <link href="./front-end/css/style.css" rel="stylesheet">
+  <script src="./front-end/libraries/jquery.min.js"></script>
+  <script src="./front-end/libraries/jquery.SPServices.min.js"></script>
+  <script src="./front-end/libraries/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav id="header" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="logo">
+      <a href="#/" onclick="javascript:event.preventDefault();" class="nav-wl">
+         <img src="front-end/css/images/whitelogo.png"> 
+      </a>
+    <span>LLP CONFIG</span>
+    </div>
+
+    <div class="nav navbar-nav navbar-right">
+      <a href='#'><span>HELP CENTER</span></a>
+      <a href=''><span>TODS</span></a>    
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!--  Configuration Controls  -->
+    <div class="config">
+      <h3>LIFE LIMITED PARTS CONFIGURATION</h3>
+      <form class="needs-validation" id="configForm" novalidate>
+        <div class="form-group">
+          <select class="custom-select" id="engineType" onclick="modelFill()" required>
+            <option selected value="Default">Select Engine Type...</option>
+            <option value="CFM56-5B">CFM56-5B</option>
+            <option value="CFM56-7B">CFM56-7B</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="custom-select" id="engineModel" onclick="moduleFill()" required>
+            <option selected>Select Engine Model...</option>
+
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="custom-select" id="engineModule" required>
+            <option selected>Select Engine Module...</option>
+          </select>
+
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary mainButtons" data-toggle="modal" id="kitMaker"
+            onclick="checkValidation()">BUILD MODULE</button>
+
+          <button type="button" class="btn btn-primary mainButtons" data-toggle="modal" id="kitMakerEngine"
+            onclick="checkValidation()">BUILD WHOLE ENGINE</button>
+
+          <button type="button" class="btn btn-danger" onclick="resetConfig()">Reset</button>
+
+        </div>
+      </form>
+      <i id='lastUpdatedOn'></i>
+    </div>
+    <!--  End of the Configuration Controls  -->
+
+    <!--  BUILDING WITH THE KIT using a Modal  -->
+    <div class="modal fade" id="kitBuilder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header" id="modalTitle">
+            <h1 class="modal-title" id="moduleTitle"></h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="kitBuilderGrid">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" onclick="resetModal()" class="btn btn-danger">Reset</button>
+            <button type="button" onclick="createTable()" class="btn btn-success">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End of Building  Kit  -->
+
+
+
+
+
+    <!--  The table that contains the output will be static  -->
+    <div class="engTable"></div>
+
+
+
+  </div>
+  </div>
+
+
+  <script type="text/javascript" src="./front-end/js/script.js"></script>
+</body>
+
+</html>

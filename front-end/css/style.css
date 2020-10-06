@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:"Arial", Helvetica, Sans-serif;
+
+  }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+i{
+    font-size: x-small;
+}
+h2{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h4{
+    font-style: italic;
+}
+
+#header.navbar-default {
+    background-color: #0078D2;
+    color:#FFFFFF;
+    font-family:Helvetica;
+    font-size:18px;
+}
+.navbar-default {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: 0px;
+    border-radius: 0;
+}
+.navbar {
+    margin-bottom: 5px;
+}
+.navbar a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.logo {
+    margin-top: 5px;
+    margin-left: -15px;
+    height: 40px;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+img {
+    width:36px;
+    height:32px
+}
+  
+
+
+.container{
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+}
+/*style for the button already using bootstrap*/
+.config{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #00467f;
+    text-align: center;
+
+}
+.mainButtons{
+    vertical-align: top;
+}
+#kitMaker{
+    margin-bottom:1em;
+}
+
+/*Style for the grid inside modal*/
+.modalInline{
+    display:inline-table;
+    margin: 10px;
+
+}
+
+
+/*Style for the final eng table output*/
+.engTable{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tg{
+    margin-top:100px;
+    border-collapse:collapse;
+    border-spacing:0;
+    border-width:2px;
+    width:100%;
+    background-color: white;
+  
+    
+}
+.tg td{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tg th{font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tg .cell{
+    text-align:center;
+    vertical-align:top
+}
+
+/*  Table Buttons  */
+.tableButtons{
+    margin-top: 10px;
+    margin-right: 10px;
+}

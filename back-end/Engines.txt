@@ -1,0 +1,233 @@
+{
+    "AllEngines": {
+        "CFM56-5B": {
+            "5B3/P": {},
+            "5B4/P": {},
+            "5B6/P": {},
+            "5B3/3": {},
+            "5B4/3": {},
+            "5B6/3": {},
+            "5B7/3": {}
+        },
+        "CFM56-7B": {
+            "7B27": {},
+            "7B27/3": {},
+            "7B27E": {}
+        }
+    },
+    "Keys": {
+        "EM": {
+            "CFM56-5B": "",
+            "CFM56-7B": ""
+        },
+        "EIPC": {
+            "CFM56-5B": "",
+            "CFM56-7B": ""
+        }
+    },
+
+    "engineSections": {
+        "CFM56-5B": {
+            "72-20": {
+                "Title": "FAN SECTION",
+                "Section": "72-20",
+                "SubSection": {
+                    "72-21": {
+                        "Title": "FAN AND BOOSTER",
+                        "Section": "72-21"
+                    },
+                    "72-22": {
+                        "Title": "NO.1 AND 2 BEARING SUPPORT ASSEMBLY",
+                        "Section": "72-22"
+                    },
+                    "72-23": {
+                        "Title": "FAN FRAME ASSEMBLY",
+                        "Section": "72-23"
+                    }
+                }
+            },
+            "72-30": {
+                "Title": "HPC SECTION",
+                "Section": "72-30",
+                "SubSection": {
+                    "72-31": {
+                        "Title": "COMPRESSOR ROTOR ASSEMBLY",
+                        "Section": "72-31"
+                    },
+                    "72-32": {
+                        "Title": "COMPRESSOR FRONT STATOR ASSEMBLY",
+                        "Section": "72-32"
+                    },
+                    "72-33": {
+                        "Title": "COMPRESSOR REAR STATOR ASSEMBLY",
+                        "Section": "72-33"
+                    }
+                }
+            },
+            "72-40": {
+                "Title": "COMBUSTION SECTION",
+                "Section": "72-40",
+                "SubSection": {
+                    "72-41": {
+                        "Title": "COMBUSTION CASE ASSEMBLY",
+                        "Section": "72-41"
+                    },
+                    "72-42": {
+                        "Title": "COMBUSTION CHAMBER ASSEMBLY",
+                        "Section": "72-42"
+                    }
+                }
+            },
+            "72-50": {
+                "Title": "TURBINE SECTION",
+                "Section": "72-50",
+                "SubSection": {
+                    "72-51": {
+                        "Title": "HPT NOZZLE ASSEMBLY",
+                        "Section": "72-51"
+                    },
+                    "72-52": {
+                        "Title": "HPT ROTOR ASSEMBLY",
+                        "Section": "72-52"
+                    },
+                    "72-53": {
+                        "Title": "HPT SHROUD/STAGE 1 LPT NOZZLE ASSEMBLY",
+                        "Section": "72-53"
+                    },
+                    "72-54": {
+                        "Title": "LPT ROTOR/STATOR ASSEMBLY",
+                        "Section": "72-54"
+                    },
+                    "72-55": {
+                        "Title": "LPT SHAFT ASSEMBLY",
+                        "Section": "72-55"
+                    },
+                    "72-56": {
+                        "Title": "TURBINE FRAME ASSEMBLY",
+                        "Section": "72-56"
+                    }
+                }
+            },
+            "72-60": {
+                "Title": "ACCESSORY DRIVE SECTION",
+                "Section": "72-60",
+                "SubSection": {
+                    "72-61": {
+                        "Title": "INLET GEARBOX AND NO.3 BEARING ASSEMBLY",
+                        "Section": "72-61"
+                    },
+                    "72-62": {
+                        "Title": "TRANSFER GEARBOX ASSEMBLY",
+                        "Section": "72-62"
+                    },
+                    "72-63": {
+                        "Title": "ACCESSORY GEARBOX ASSEMBLY",
+                        "Section": "72-63"
+                    }
+                }
+            }
+        },
+        "CFM56-7B": {
+            "72-20": {
+                "Title": "FAN SECTION",
+                "Section": "72-20",
+                "SubSection": {
+                    "72-21": {
+                        "Title": "FAN AND BOOSTER",
+                        "Section": "72-21"
+                    },
+                    "72-22": {
+                        "Title": "NO.1 AND 2 BEARING SUPPORT ASSEMBLY",
+                        "Section": "72-22"
+                    },
+                    "72-23": {
+                        "Title": "FAN FRAME ASSEMBLY",
+                        "Section": "72-23"
+                    }
+                }
+            },
+            "72-30": {
+                "Title": "HPC SECTION",
+                "Section": "72-30",
+                "SubSection": {
+                    "72-31": {
+                        "Title": "COMPRESSOR ROTOR ASSEMBLY",
+                        "Section": "72-31"
+                    },
+                    "72-32": {
+                        "Title": "COMPRESSOR FRONT STATOR ASSEMBLY",
+                        "Section": "72-32"
+                    },
+                    "72-33": {
+                        "Title": "COMPRESSOR REAR STATOR ASSEMBLY",
+                        "Section": "72-33"
+                    }
+                }
+            },
+            "72-40": {
+                "Title": "COMBUSTION SECTION",
+                "Section": "72-40",
+                "SubSection": {
+                    "72-41": {
+                        "Title": "COMBUSTION CASE ASSEMBLY",
+                        "Section": "72-41"
+                    },
+                    "72-42": {
+                        "Title": "COMBUSTION CHAMBER ASSEMBLY",
+                        "Section": "72-42"
+                    }
+                }
+            },
+            "72-50": {
+                "Title": "TURBINE SECTION",
+                "Section": "72-50",
+                "SubSection": {
+                    "72-51": {
+                        "Title": "HPT NOZZLE ASSEMBLY",
+                        "Section": "72-51"
+                    },
+                    "72-52": {
+                        "Title": "HPT ROTOR ASSEMBLY",
+                        "Section": "72-52"
+                    },
+                    "72-53": {
+                        "Title": "HPT SHROUD/STAGE 1 LPT NOZZLE ASSEMBLY",
+                        "Section": "72-53"
+                    },
+                    "72-54": {
+                        "Title": "LPT ROTOR/STATOR ASSEMBLY",
+                        "Section": "72-54"
+                    },
+                    "72-55": {
+                        "Title": "LPT SHAFT ASSEMBLY",
+                        "Section": "72-55"
+                    },
+                    "72-56": {
+                        "Title": "TURBINE FRAME ASSEMBLY",
+                        "Section": "72-56"
+                    }
+                }
+            },
+            "72-60": {
+                "Title": "ACCESSORY DRIVE SECTION",
+                "Section": "72-60",
+                "SubSection": {
+                    "72-61": {
+                        "Title": "INLET GEARBOX AND NO.3 BEARING ASSEMBLY",
+                        "Section": "72-61"
+                    },
+                    "72-62": {
+                        "Title": "TRANSFER GEARBOX ASSEMBLY",
+                        "Section": "72-62"
+                    },
+                    "72-63": {
+                        "Title": "ACCESSORY GEARBOX ASSEMBLY",
+                        "Section": "72-63"
+                    }
+                }
+            }
+        }
+
+    }
+
+}
